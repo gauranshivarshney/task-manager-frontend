@@ -1,0 +1,116 @@
+.tasksContainer {
+    display: flex;
+    height: 100vh;
+}
+
+.mainContent {
+    flex: 1;
+    padding: 20px;
+    background-color: #f3f4f6;
+    margin-left: 250px;
+}
+
+.tasksHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.createBtn {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    padding: 10px 16px;
+    background-color: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 500;
+    transition: background-color 0.2s ease-in-out;
+}
+
+.createBtn:hover {
+    background-color: #1d4ed8;
+}
+
+.taskList {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.taskCard {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 16px;
+    border-radius: 12px;
+    width: 300px;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+}
+
+.taskHeader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 8px;
+}
+
+.priority {
+    padding: 4px 10px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+    text-transform: capitalize;
+}
+
+.high {
+    background-color: #ff4d4f;
+    color: white;
+}
+
+.medium {
+    background-color: #faad14;
+    color: white;
+}
+
+.low {
+    background-color: #52c41a;
+    color: white;
+}
+
+.dueDate {
+    font-size: 13px;
+    color: #888;
+}
+
+.taskTitle {
+    margin: 6px 0;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.taskMeta {
+    font-size: 13px;
+    color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+
+.deleteBtn {
+    background-color: #e74c3c;
+    color: white;
+    border: none;
+    padding: 4px 8px;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 8px;
+    font-size: 0.75rem;
+    line-height: 1;
+}
+
+.deleteBtn:hover {
+    background-color: #c0392b;
+}
